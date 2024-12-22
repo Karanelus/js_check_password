@@ -37,7 +37,7 @@ describe(`Function 'checkPassword':`, () => {
   });
 
   it(`should return 'false' for a password without an uppercase letter`, () => {
-    const result = checkPassword('noUppercase1@');
+    const result = checkPassword('nouppercase1@');
 
     expect(result).toBe(false);
   });
